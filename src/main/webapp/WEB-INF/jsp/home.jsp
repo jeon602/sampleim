@@ -10,35 +10,42 @@
 <html>
 <head>
     <title>Title</title>
-    <style>body{
-        background-color: honeydew;
+    <style>
+    body {
+        background-color: aliceblue;
         text-align: center;
-        ;
-    }
+        }
     h3{
         font-size: 3rem;
         font-family: "Segoe Print";
     }
-    div{width: 100%; height: auto;
-
+    h4{
+        font-family: "Segoe Print";
+    }
+    div{
+        width: 100%; height: auto;
+        justify-content: space-between;
         border: 2px solid black;
-
+        border-radius: 20px;
     }
-    .t1{display: flex;
+    .t1{
+        display: flex;
     }
-
+    th{
+        justify-content: space-between;
+    }
     </style>
 </head>
+
 <body>
-<h3>Things To Do!</h3>
+<h3>🐬TO DO LIST🐬</h3>
 <h4>
     <form action="/add" method="post">
-        <input type="text" name="todo" placeholder="할 일을 입력하세요" >
-        <button style="background-color: paleturquoise">추가</button>
+        <input type="text" name="todo" placeholder="할 일을 입력하세요" style="margin-top: auto">
+        <button style="background-color: lightpink">추가</button>
     </form>
 </h4>
-<br>
-<br>
+
 <br>
 
 <h4 style="font-size: 1.5rem">TO DO LIST</h4>
